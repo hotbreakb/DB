@@ -35,10 +35,11 @@
    **이럴 때 다대다 관계인가?**
 
 
-10. 상품(Product)은 한 직원에 의해 관리(manage)된다.<br><br>
-   ![그림7](https://user-images.githubusercontent.com/64337152/117646639-f3642680-b1c6-11eb-8b2d-99a7a3b744b6.png)<br>
+9. 상품(Product)은 한 직원에 의해 관리(manage)된다.<br><br>
+   ![그림9](https://user-images.githubusercontent.com/64337152/117737993-fc401100-b235-11eb-8839-b2a85d425ad6.png)<br>
    한 명의 직원이 여러 개의 물건을 관리한다.<br>
-   ![그림8](https://user-images.githubusercontent.com/64337152/117646649-f5c68080-b1c6-11eb-8110-272be349f27e.png)<br>
+   ![그림10](https://user-images.githubusercontent.com/64337152/117738002-006c2e80-b236-11eb-829c-c99c892648bb.png)<br>
    하나의 물건은 한 명의 직원이 관리한다.<br><br>
    
-12. 한 상품은 여러 고객에게 판매(sale)된다.
+#### 결과
+![image](https://user-images.githubusercontent.com/64337152/117738139-4f19c880-b236-11eb-9f67-e36f7ad4ccaf.png)
