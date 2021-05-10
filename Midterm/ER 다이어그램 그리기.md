@@ -1,6 +1,6 @@
-### ER 다이어그램 그리기
+## ER 다이어그램 그리기
 
-#### 개체 및 속성
+### 개체 및 속성
 1. 직원(Staff)은 아이디(ssn), 이름(name), 나이(age), 직위(rank), 소속(division)을 가진다.
   ![image](https://user-images.githubusercontent.com/64337152/117625452-feac5780-b1b0-11eb-8d4a-dae99bd78b4a.png)
   
@@ -41,5 +41,5 @@
    ![그림10](https://user-images.githubusercontent.com/64337152/117738002-006c2e80-b236-11eb-829c-c99c892648bb.png)<br>
    하나의 물건은 한 명의 직원이 관리한다.<br><br>
    
-#### 결과
+### 결과
 ![image](https://user-images.githubusercontent.com/64337152/117738139-4f19c880-b236-11eb-9f67-e36f7ad4ccaf.png)
