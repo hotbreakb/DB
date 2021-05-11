@@ -25,15 +25,17 @@
   ![그림4](https://user-images.githubusercontent.com/64337152/117642260-09bbb380-b1c2-11eb-9485-1ac5234480b6.png)<br>
   한 명의 직원은 여러 곳에서 일할 수 있다.(1,*)<br><br>
 
-7. 고객(Customer)은 쇼핑몰에서 상품을 구매(buy)할 수 있다.
+7. 고객(Customer)은 상품을 구매(buy)할 수 있다.<br><br>
+   상품믄 여러 고객에게 팔릴 수 있다.<br>
+   ![그림13](https://user-images.githubusercontent.com/64337152/117738870-f9deb680-b237-11eb-92bd-a54e08c68940.png)<br>
+   고객은 여러 상품을 구매할 수 있다.<br>
+   ![그림14](https://user-images.githubusercontent.com/64337152/117738873-fba87a00-b237-11eb-8e45-7f9260d8a815.png)<br>
+
 8. 고객은 어떤 스타일이 어울리는지 추천해주는 서비스(service)를 받을 수 있다.<br><br>
-   ![그림5](https://user-images.githubusercontent.com/64337152/117645588-b9465500-b1c5-11eb-9fde-05ef2efaa467.png)<br>
-   쇼핑몰에 여러 고객이 존재한다.<br>
-   ![그림6](https://user-images.githubusercontent.com/64337152/117645597-bba8af00-b1c5-11eb-98fd-ef25a2688a23.png)<br>
-   한 명의 고객은 여러 쇼핑몰에서 구매하고 서비스를 받을 수 있다.<br><br>
-
-   **이럴 때 다대다 관계인가?**
-
+   ![그림11](https://user-images.githubusercontent.com/64337152/117738650-7e7d0500-b237-11eb-9c5d-bd1c5957f829.png)<br>
+   쇼핑몰에서 여러 고객에게 서비스할 수 있다.<br>
+   ![그림12](https://user-images.githubusercontent.com/64337152/117738661-82108c00-b237-11eb-88bb-3d1c1ade30f5.png)<br>
+   한 명의 고객은 여러 쇼핑몰에서 서비스를 받을 수 있다.<br><br>
 
 9. 상품(Product)은 한 직원에 의해 관리(manage)된다.<br><br>
    ![그림9](https://user-images.githubusercontent.com/64337152/117737993-fc401100-b235-11eb-8839-b2a85d425ad6.png)<br>
@@ -42,4 +44,7 @@
    하나의 물건은 한 명의 직원이 관리한다.<br><br>
    
 ### 결과
-![image](https://user-images.githubusercontent.com/64337152/117738139-4f19c880-b236-11eb-9f67-e36f7ad4ccaf.png)
+![image](https://user-images.githubusercontent.com/64337152/117738491-1cbc9b00-b237-11eb-952f-b3c0021ab4e9.png)
+
+### 느낀점
+글쓰는 것보다 라인이 맞추느라 수정하는 데 시간을 더 쓴 거 같다. 미래의 나에게 도움이 되겠지.
