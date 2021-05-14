@@ -16,10 +16,10 @@ INSERT INTO StaffTBL VALUES
 ";
 $ret = mysqli_query($con, $sql);
 if($ret) {
-echo "userTBL에 데이터가 성공적으로 입력됨.";
+echo "StaffTBL에 데이터가 성공적으로 입력됨.";
 }
 else {
-echo "userTBL 데이터 입력 실패!!!"."<BR>";
+echo "StaffTBL 데이터 입력 실패!!!"."<BR>";
 echo "실패 원인 :".mysqli_error($con);
 }
 

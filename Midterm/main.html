@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>상품 관리하기</h1>
 
-    <a href="selectProduct.php">(1) 전체 상품 조회</a> <br><br>
-    <a href="insertProductOne.html">(2) 신규 상품 등록</a> <br><br>
-    <form method="get" action="update.php">
-        (3) 회원 정보 수정<br>
-        회원 아이디: <input type="text" name="userID">
-        <input type="submit" value="customerModify">
-    </form>
-    <form method="get" action="delete.php">
-        (4) 회원 삭제<br>
-        회원 아이디: <input type="text" name="userID">
-        <input type="submit" value="customerDelete">
-    </form>
+<body>
+    <h1>쇼핑몰 관리하기</h1>
+
+    <form method="get" action="updateECommerce.php">
+        (1) 쇼핑몰 정보 수정<br>
+        쇼핑몰 이름: <input type="text" name="ECommerceName">
+        <input type="submit" value="확인">
+    </form> <br><br>
+
+    <form method="get" action="updateStaff.php">
+        (2) 직원 정보 수정<br>
+        직원 이름: <input type="text" name="staffName">
+        <input type="submit" value="확인">
+    </form> <br><br>
+
+    <form method="get" action="updateProduct.php">
+        (3) 상품 정보 수정<br>
+        상품 이름: <input type="text" name="productName">
+        <input type="submit" value="확인">
+    </form> <br><br>
+
+    <form method="get" action="updateCustomer.php">
+        (4) 회원 정보 수정<br>
+        회원 아이디: <input type="text" name="userName">
+        <input type="submit" value="확인">
+    </form> <br><br>
+
 </body>
+
 </html>

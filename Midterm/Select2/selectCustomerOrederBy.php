@@ -2,7 +2,7 @@
 $con = mysqli_connect("localhost", "ID201801567", "PW201801567", "ecommerce") or die("MySQL 접속 실패!!");
 
 $sql ="
-SELECT * FROM CustomerTBL
+SELECT name FROM CustomerTBL ORDER BY ASC
 ";
 
 $ret = mysqli_query($con, $sql);
