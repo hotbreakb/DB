@@ -2,7 +2,7 @@
 $con = mysqli_connect("localhost", "ID201801567", "PW201801567", "ecommerce") or die("MySQL 접속 실패!!");
 
 $sql ="
-SELECT name FROM CustomerTBL ORDER BY ASC
+SELECT * FROM CustomerTBL ORDER BY name DESC
 ";
 
 $ret = mysqli_query($con, $sql);
@@ -17,7 +17,8 @@ else {
 
 
 while($row = mysqli_fetch_array($ret)) {
-    echo $row['ssn'], " ", $row['name'], " ", $row['age'], " ", $row['rank'], " ", $row['address'], "<br>";
+    echo $row;
+    // echo $row['ssn'], " ", $row['name'], " ", $row['age'], " ", $row['rank'], " ", $row['address'], "<br>";
 }
 
 mysqli_close($con);

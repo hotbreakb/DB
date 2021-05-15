@@ -2,7 +2,7 @@
 $con = mysqli_connect("localhost", "ID201801567", "PW201801567", "ecommerce") or die("MySQL 접속 실패!!");
 
 $sql ="
-SELECT * AS cnt FROM StaffTBL GROUP BY division
+SELECT * FROM StaffTBL GROUP BY division
 ";
 
 $ret = mysqli_query($con, $sql);
